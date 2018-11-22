@@ -1,0 +1,18 @@
+<!--http://blog.ultimatephp.com.br/upload-multiplo-php/ usei este link como fonte (eu acho)-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>FAMA - Ferramenta de Anotação Manual Automatizada</title>
+  </head>
+  <body>
+    <div id="divContainer">
+        <div id="divTitulo">Ferramenta de Anotação Manual Automatizada</div>
+            <form name="upload" enctype="multipart/form-data" method="post" action="up.php">
+                <input type="file" name="arquivo[]" value="arquivo" multiple="multiple"/>
+                <input name="enviar" type="submit" value="Enviar">
+            </form>
+    </div>
+  </body>
+</html>
